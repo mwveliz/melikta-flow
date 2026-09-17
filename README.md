@@ -2,6 +2,8 @@
 
 > **Asynchronous Transaction Relay, Sequence Queue & Infrastructure Beacon on Flow**
 
+**Explore the live landing page:** https://mwveliz.github.io/melikta-flow/
+
 Melikta decouples high-frequency telemetry and user intents from blockchain settlement. It eliminates sequence number (nonce) collisions on signing accounts using a serialized in-memory queue (BullMQ + Redis) while providing a gasless, client-side dashboard powered by FCL and Cadence scripts.
 
 ---
