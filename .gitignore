@@ -1,0 +1,8 @@
+implementation.md
+*/node_modules/*
+package-lock.json
+
+# Local environment files; keep the template tracked.
+.env
+.env.*
+!.env.example

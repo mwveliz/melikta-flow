@@ -1,0 +1,28 @@
+{
+  "contracts": {
+    "Melikta": "./cadence/contracts/Melikta.cdc"
+  },
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "testnet": "access.testnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": {
+        "type": "hex",
+        "index": 0,
+        "signatureAlgorithm": "ECDSA_P256",
+        "hashAlgorithm": "SHA3_256",
+        "privateKey": "0000000000000000000000000000000000000000000000000000000000000001"
+      }
+    }
+  },
+  "deployments": {
+    "emulator": {
+      "emulator-account": [
+        "Melikta"
+      ]
+    }
+  }
+}
